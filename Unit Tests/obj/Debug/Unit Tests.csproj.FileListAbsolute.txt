@@ -1,0 +1,18 @@
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Unit Tests.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Unit Tests.pdb
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Voting_App.exe
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Voting_App.pdb
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Voting_App.exe.config
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\obj\Debug\Unit Tests.csproj.AssemblyReference.cache
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\obj\Debug\Unit Tests.csproj.CoreCompileInputs.cache
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\obj\Debug\Unit Tests.csproj.Up2Date
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\obj\Debug\Unit Tests.dll
+C:\Users\seisc\source\repos\capstone_project\Unit Tests\obj\Debug\Unit Tests.pdb

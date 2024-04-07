@@ -10,6 +10,7 @@ namespace Voting_App
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

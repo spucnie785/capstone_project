@@ -1,0 +1,7 @@
+C:\Users\seisc\source\repos\capstone_project\Voting App\bin\Debug\Voting_App.exe.config
+C:\Users\seisc\source\repos\capstone_project\Voting App\bin\Debug\Voting_App.exe
+C:\Users\seisc\source\repos\capstone_project\Voting App\bin\Debug\Voting_App.pdb
+C:\Users\seisc\source\repos\capstone_project\Voting App\obj\Debug\Voting App.csproj.AssemblyReference.cache
+C:\Users\seisc\source\repos\capstone_project\Voting App\obj\Debug\Voting App.csproj.CoreCompileInputs.cache
+C:\Users\seisc\source\repos\capstone_project\Voting App\obj\Debug\Voting_App.exe
+C:\Users\seisc\source\repos\capstone_project\Voting App\obj\Debug\Voting_App.pdb
