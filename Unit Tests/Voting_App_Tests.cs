@@ -9,7 +9,7 @@ namespace Unit_Tests
         public void CreateVoter()
         {
             var steve = new Voter("123", "stevesocool456", "Steve", "Obama", true);
-            Assert.AreEqual("123", steve.id);
+            Assert.AreEqual("123", steve.Id);
             Assert.AreEqual("Obama", steve.Choice);
             Assert.AreEqual(true, steve.Voted);
         }

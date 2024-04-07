@@ -10,7 +10,7 @@ namespace Voting_App
     {
         static void Main(string[] args)
         {
-
+            //TODO: Actually implement this after the DB is set up
         }
     }
 }
