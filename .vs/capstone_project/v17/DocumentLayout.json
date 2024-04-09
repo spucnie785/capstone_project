@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\seisc\\source\\repos\\capstone_project\\.vs\\capstone_project\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\capstone_project\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{970A7AE3-58C9-45C8-81AE-B728966B5093}|Unit Tests\\Unit Tests.csproj|C:\\Users\\seisc\\source\\repos\\capstone_project\\unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970A7AE3-58C9-45C8-81AE-B728966B5093}|Unit Tests\\Unit Tests.csproj|solutionrelative:unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\voting app\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|C:\\Users\\seisc\\source\\repos\\capstone_project\\voting app\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|solutionrelative:voting app\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|C:\\Users\\seisc\\source\\repos\\capstone_project\\voting app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|solutionrelative:voting app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970A7AE3-58C9-45C8-81AE-B728966B5093}|Unit Tests\\Unit Tests.csproj|C:\\Users\\seisc\\source\\repos\\capstone_project\\unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{970A7AE3-58C9-45C8-81AE-B728966B5093}|Unit Tests\\Unit Tests.csproj|solutionrelative:unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "applicationhost.config",
-              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\.vs\\capstone_project\\config\\applicationhost.config",
-              "RelativeDocumentMoniker": ".vs\\capstone_project\\config\\applicationhost.config",
-              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\.vs\\capstone_project\\config\\applicationhost.config",
-              "RelativeToolTip": ".vs\\capstone_project\\config\\applicationhost.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-08T17:14:56.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Voting_App_Tests.cs",
               "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\Voting_App_Tests.cs",
               "RelativeDocumentMoniker": "Unit Tests\\Voting_App_Tests.cs",
@@ -80,8 +63,7 @@
               "RelativeToolTip": "Voting App\\Voter.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:36:24.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T16:36:24.464Z"
             }
           ]
         }
