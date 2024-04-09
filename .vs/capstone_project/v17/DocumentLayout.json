@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{970A7AE3-58C9-45C8-81AE-B728966B5093}|Unit Tests\\Unit Tests.csproj|C:\\Users\\seisc\\source\\repos\\capstone_project\\unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{970A7AE3-58C9-45C8-81AE-B728966B5093}|Unit Tests\\Unit Tests.csproj|solutionrelative:unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\models\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|C:\\Users\\seisc\\source\\repos\\capstone_project\\voting app\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|solutionrelative:voting app\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|C:\\Users\\seisc\\source\\repos\\capstone_project\\voting app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96ED1888-B47A-47DE-B375-272FDC825A29}|Voting App\\Voting App.csproj|solutionrelative:voting app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B04573CF-B28B-4E68-ABDF-10CAA5135BF0}|Unit Tests\\Unit Tests.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04573CF-B28B-4E68-ABDF-10CAA5135BF0}|Unit Tests\\Unit Tests.csproj|solutionrelative:unit tests\\voting_app_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,40 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Voting_App_Tests.cs",
               "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\Voting_App_Tests.cs",
               "RelativeDocumentMoniker": "Unit Tests\\Voting_App_Tests.cs",
               "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\Voting_App_Tests.cs",
               "RelativeToolTip": "Unit Tests\\Voting_App_Tests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:25:44.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T17:15:41.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Voting App\\Program.cs",
-              "RelativeDocumentMoniker": "Voting App\\Program.cs",
-              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Voting App\\Program.cs",
-              "RelativeToolTip": "Voting App\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:51:58.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Voter.cs",
-              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Voting App\\Voter.cs",
-              "RelativeDocumentMoniker": "Voting App\\Voter.cs",
-              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Voting App\\Voter.cs",
-              "RelativeToolTip": "Voting App\\Voter.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Models\\Voter.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Voter.cs",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Models\\Voter.cs",
+              "RelativeToolTip": "WebApp\\Models\\Voter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:36:24.464Z"
+              "WhenOpened": "2024-04-09T17:05:05.11Z",
+              "EditorCaption": ""
             }
           ]
         }
