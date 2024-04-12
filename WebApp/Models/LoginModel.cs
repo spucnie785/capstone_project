@@ -1,8 +1,11 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Drawing;
 using System.Linq.Expressions;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.Data.SqlClient;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace WebApp.Models
 {
@@ -10,15 +13,14 @@ namespace WebApp.Models
     {
         [Key] public int Id { get; set; }
         public string Username { get; set; }
-        public string Password { get; set; }
-
-        private string ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=VoterAppDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+		public string Password { get; set; }
+		private string ConnectionString = "Data Source=(localdb)\\ProjectModels;Initial Catalog = VoterAppDB; Integrated Security = True; Connect Timeout = 30; Encrypt=False;Trust Server Certificate=False;Application Intent = ReadWrite; Multi Subnet Failover=False";
 
         public LoginModel(string username, string password)
-        {
-            Username = username;
-            Password = password;
-        }
+		{
+			Username = username;
+			Password = password;
+		}
 
         public LoginModel()
         {

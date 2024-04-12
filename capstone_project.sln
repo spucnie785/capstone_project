@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit Tests", "Unit Tests\Unit Tests.csproj", "{B04573CF-B28B-4E68-ABDF-10CAA5135BF0}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VoterAppDB", "VoterAppDB\VoterAppDB.sqlproj", "{EF3DC0B7-FCA2-4DE4-9DF8-D95A0C025CB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{B04573CF-B28B-4E68-ABDF-10CAA5135BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04573CF-B28B-4E68-ABDF-10CAA5135BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04573CF-B28B-4E68-ABDF-10CAA5135BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3DC0B7-FCA2-4DE4-9DF8-D95A0C025CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3DC0B7-FCA2-4DE4-9DF8-D95A0C025CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3DC0B7-FCA2-4DE4-9DF8-D95A0C025CB5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF3DC0B7-FCA2-4DE4-9DF8-D95A0C025CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3DC0B7-FCA2-4DE4-9DF8-D95A0C025CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3DC0B7-FCA2-4DE4-9DF8-D95A0C025CB5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
