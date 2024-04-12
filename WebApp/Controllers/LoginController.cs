@@ -7,12 +7,13 @@ namespace WebApp.Controllers
     {
         public IActionResult Index()
         {
-            return View("Login");
+            return View();
         }
 
-        public string Login(LoginModel login)
-        {//TODO: make this log into the database
-            return "Username:" + login.Username + "\nPassword:" + login.Password;
+        public IActionResult Login(LoginModel login)
+        {
+	        return View(login.ValidateLogin(login));
         }
+
     }
 }

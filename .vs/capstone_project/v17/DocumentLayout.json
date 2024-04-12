@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\models\\votermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\votermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|c:\\users\\seisc\\source\\repos\\capstone_project\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{25DA4A2D-1C56-4920-B623-A9628ADDD68C}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T14:48:53.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T14:42:00.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T14:33:22.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApp",
+              "DocumentMoniker": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\WebApp.csproj",
+              "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
+              "ToolTip": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\WebApp.csproj",
+              "RelativeToolTip": "WebApp\\WebApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T14:13:17.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:53:32.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VoterModel.cs",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Models\\VoterModel.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\VoterModel.cs",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Models\\VoterModel.cs",
+              "RelativeToolTip": "WebApp\\Models\\VoterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:53:19.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:52:51.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Models\\LoginModel.cs",
+              "RelativeToolTip": "WebApp\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:52:50.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:52:39.483Z",
+              "EditorCaption": ""
             }
           ]
         }
