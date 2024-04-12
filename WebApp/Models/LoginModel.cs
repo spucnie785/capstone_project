@@ -14,7 +14,7 @@ namespace WebApp.Models
         [Key] public int Id { get; set; }
         public string Username { get; set; }
 		public string Password { get; set; }
-		private string ConnectionString = "Data Source=(localdb)\\ProjectModels;Initial Catalog = VoterAppDB; Integrated Security = True; Connect Timeout = 30; Encrypt=False;Trust Server Certificate=False;Application Intent = ReadWrite; Multi Subnet Failover=False";
+		private string ConnectionString = "Data Source=(localdb)\\ProjectModels;Initial Catalog=WebAppDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
 
         public LoginModel(string username, string password)
 		{
