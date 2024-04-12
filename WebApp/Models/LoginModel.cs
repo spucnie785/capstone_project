@@ -14,5 +14,11 @@ namespace WebApp.Models
             Username = username;
             Password = password;
         }
+
+        public LoginModel()
+        {
+            Username = null;
+            Password = null;
+        }
     }
 }

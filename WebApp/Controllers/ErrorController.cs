@@ -2,10 +2,11 @@
 
 namespace WebApp.Controllers
 {
-    public class HomeController : Controller
+    public class ErrorController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Error()
         {
+
             return View();
         }
     }
