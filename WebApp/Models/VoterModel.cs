@@ -9,7 +9,7 @@ namespace WebApp.Models
         private LoginModel Login { get; set; }
 
     private string Name { get; }
-        private protected string Choice { get; set; }
+        private protected string? Choice { get; set; }
         public bool Voted = false;
 
 
@@ -42,7 +42,7 @@ namespace WebApp.Models
             Voted = false;
         }
 
-        public string GetChoice()
+        public string? GetChoice()
         {
             return Choice;
         }
