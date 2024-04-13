@@ -15,8 +15,17 @@ namespace WebApp.Models
 
         public VoterModel(string id, string username, string password, string name, string choice, bool voted)
         {
-            this.Id = id;
+            Id = id;
             Login = new LoginModel(username, password);
+            Name = name;
+            Choice = choice;
+            Voted = voted;
+        }
+
+        public VoterModel(string id, LoginModel login, string name, string choice, bool voted)
+        {
+	        Id = id;
+            Login = login;
             Name = name;
             Choice = choice;
             Voted = voted;
