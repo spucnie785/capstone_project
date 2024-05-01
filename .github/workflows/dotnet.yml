@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
+    - name: Build with MSBuild
+      run: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe capstone_project.sln /p:Configuration=Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
