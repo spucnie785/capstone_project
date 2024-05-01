@@ -12,7 +12,7 @@ namespace WebApp.Controllers
 
         public IActionResult Login(LoginModel login)
         {
-	        return View(login.ValidateLogin(login));
+	        return View(login.ValidateLogin());
         }
 
     }

@@ -1,0 +1,10 @@
+﻿@{
+	var voter = new VoterModel(@Model.Login.Username, @Model.Login.Password, @Model.Name, "None", false);
+	voter.AddToDatabase();
+}
+
+<a href="/Home">Back to Homepage</a>
+<p>@voter.Name</p>
+<p>@voter.Login.Username</p>
+<p>@voter.Choice</p>
+

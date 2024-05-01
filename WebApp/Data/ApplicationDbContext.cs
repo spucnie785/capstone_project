@@ -11,5 +11,6 @@ namespace WebApp.Data
         {
         }
         public DbSet<WebApp.Models.LoginModel> LoginModel { get; set; } = default!;
+        public DbSet<WebApp.Models.VoterModel> VoterModel { get; set; } = default!;
     }
 }

@@ -42,6 +42,9 @@ app.MapControllerRoute(
     name: "Login",
     pattern: "{controller=Login}/{action=Index}/{id?}");
 app.MapControllerRoute(
+    name: "Register",
+    pattern: "{controller=Register}/{action=Index}/{id?}");
+app.MapControllerRoute(
     name: "Error",
     pattern: "{controller=Error}/{action=Error}/{id?}");
 app.MapRazorPages();
