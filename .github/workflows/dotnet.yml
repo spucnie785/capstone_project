@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Install SSDT
-      run: choco install sqlserverdatatools
+      run: choco install sqlserverdatatools2012
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
