@@ -55,7 +55,11 @@ namespace WebApp.Models
             return Choice;
         }
 
-        public void AddToDatabase()
+        /**
+         * returns 0 if it adds the new user to the database perfectly fine
+         * returns 2 if there was an error
+        **/
+        public int AddToDatabase()
         {
             Login.AddToDatabase();
             const string commandText =
@@ -87,7 +91,7 @@ namespace WebApp.Models
                         r.Close();
 	                    command = new SqlCommand(testString, connection);
 	                    Id = Convert.ToInt32(command.ExecuteScalar());
-	                    return;
+	                    return 2;
                     }
                     r.Close();
 
@@ -98,8 +102,11 @@ namespace WebApp.Models
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
+                    return 2;
                 }
             }
+
+            return 0;
         }
 
         public void DeleteFromDatabase()

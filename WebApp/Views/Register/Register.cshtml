@@ -1,10 +1,22 @@
 ﻿@{
 	var voter = new VoterModel(@Model.Login.Username, @Model.Login.Password, @Model.Name, "None", false);
-	voter.AddToDatabase();
+	var s = voter.AddToDatabase();
+
+	var message = "Error";
+	switch (s)
+	{
+		case 0:
+			message = "Completed successfully for: " + voter.Name;
+			break;
+		case 1:
+			message = "Failed: You already have an account with this login";
+			break;
+	}
+
+	ViewData["Title"] = $"Registration - " + @message;
 }
 
-<a href="/Home">Back to Homepage</a>
-<p>@voter.Name</p>
-<p>@voter.Login.Username</p>
-<p>@voter.Choice</p>
+<h1>Registration - @message</h1>
 
+<a href="/Home">Back to Homepage</a>
+<p>Username: @voter.Login.Username</p>
