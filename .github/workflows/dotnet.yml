@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build with MSBuild
-      run: where.exe /r C:\ msbuild
+      run: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe capstone_project.sln /p:Configuration=Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
