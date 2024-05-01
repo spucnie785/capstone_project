@@ -1,3 +1,10 @@
 C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\obj\Debug\WebAppDB.sqlproj.AssemblyReference.cache
 C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\obj\Debug\WebAppDB.dll
 C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\obj\Debug\WebAppDB.pdb
+C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\bin\Debug\WebAppDB.dacpac
+C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\bin\Debug\WebAppDB.dll
+C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\bin\Debug\WebAppDB.pdb
+C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\obj\Debug\Model.xml
+C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\obj\Debug\refactor.xml
+C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\obj\Debug\postdeploy.sql
+C:\Users\seisc\Source\Repos\capstone_project\WebAppDB\obj\Debug\predeploy.sql
