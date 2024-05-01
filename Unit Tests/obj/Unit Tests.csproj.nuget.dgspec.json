@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\Unit Tests.csproj": {}
+    "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\Unit Tests\\Unit Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\Unit Tests.csproj": {
+    "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\Unit Tests\\Unit Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\Unit Tests.csproj",
+        "projectUniqueName": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\Unit Tests\\Unit Tests.csproj",
         "projectName": "Unit Tests",
-        "projectPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\Unit Tests.csproj",
+        "projectPath": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\Unit Tests\\Unit Tests.csproj",
         "packagesPath": "C:\\Users\\seisc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\Unit Tests\\obj\\",
+        "outputPath": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\Unit Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\seisc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\WebApp.csproj": {
-                "projectPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\WebApp.csproj"
+              "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\WebApp.csproj": {
+                "projectPath": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\WebApp.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\WebApp.csproj",
+        "projectPath": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\seisc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seisc\\source\\repos\\capstone_project\\WebApp\\obj\\",
+        "outputPath": "C:\\Users\\seisc\\Source\\Repos\\capstone_project\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\seisc\\AppData\\Roaming\\NuGet\\NuGet.Config",
