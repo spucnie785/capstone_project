@@ -1,16 +1,22 @@
 ﻿@{
     var s = "Error";
-    switch (@Model)
+    if (@Model != -1)
     {
-	    case true:
-		    s = "Success";
-		    break;
-	    case false:
-		    s = "Failed";
-		    break;
+	    s = "Success";
+    }
+    else
+    {
+	    s = "Failed";
     }
     ViewData["Title"] = $"Login {@s}";
 }
 
 <h1>Login @s</h1>
 <a href="/Login">Back to login</a>
+<br/>
+
+
+@if (@Model != -1)
+{
+	<a href="/Vote">Vote</a>
+}

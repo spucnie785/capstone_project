@@ -39,6 +39,15 @@ namespace WebApp.Models
             Voted = voted;
         }
 
+        public VoterModel(int id, LoginModel login, string name, string choice, bool voted)
+        {
+            Id = id;
+            Login = login;
+            Name = name;
+            Choice = choice;
+            Voted = voted;
+        }
+
         public void ChangedChoice(string choice)
         {
             Choice = choice;
@@ -132,6 +141,37 @@ namespace WebApp.Models
                     Console.WriteLine(e.Message);
                 }
             }
+        }
+
+        public VoterModel GetFromDatabaseWithLogin(LoginModel login)
+        {
+            VoterModel model = null;
+
+            var queryString = "SELECT FROM dbo.Voters WHERE LoginId = @LoginId;";
+
+            using (var connection = new SqlConnection(ConnectionString))
+            {
+
+                var command = new SqlCommand(queryString, connection);
+                command.Parameters.AddWithValue("@LoginId", login.Id);
+
+                try
+                {
+                    connection.Open();
+                    SqlDataReader r = command.ExecuteReader();
+                    model = new VoterModel(r.GetInt32(0), login, r.GetString(1), r.GetString(2), r.GetBoolean(3));
+                    model.Login.Id = r.GetInt32(4);
+                    connection.Close();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    throw;
+                }
+
+            }
+
+            return model;
         }
     }
 }

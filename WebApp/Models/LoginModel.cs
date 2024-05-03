@@ -12,7 +12,7 @@ namespace WebApp.Models
 {
     public class LoginModel
     {
-        [Key] public int Id { get; set; }
+        [Key] public int Id { get; set; } = -1;
         public string? Username { get; set; }
 		public string? Password { get; set; }
 		private const string ConnectionString = "Data Source=(localdb)\\ProjectModels;Initial Catalog=WebAppDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
@@ -29,7 +29,8 @@ namespace WebApp.Models
             Password = null;
         }
 
-        public bool ValidateLogin()
+        //Returns the loginId of the login or -1 if it can't find it
+        public int ValidateLogin()
         {
 	        var success = false;
 
@@ -44,11 +45,8 @@ namespace WebApp.Models
 		        try
 		        {
 			        connection.Open();
-			        SqlDataReader r = command.ExecuteReader();
-                    if (r.HasRows) success = true;
-                    r.Close();
-                    command = new SqlCommand("SELECT SCOPE_IDENTITY();", connection);
                     Id = Convert.ToInt32(command.ExecuteScalar());
+                    if (Id == 0) Id = -1;
                     connection.Close();
                 }
 		        catch (Exception e)
@@ -57,13 +55,13 @@ namespace WebApp.Models
 		        }
 			}
 
-	        return success;
+	        return Id;
         }
 
         public void AddToDatabase()
         {
 
-            if (ValidateLogin()) return;
+            if (ValidateLogin() != -1) return;
 
             const string commandText = "INSERT INTO dbo.Logins (Username, Password) VALUES (@Username, @Password); SELECT SCOPE_IDENTITY();";
             using (var connection = new SqlConnection(ConnectionString))
