@@ -1,5 +1,4 @@
 # capstone_project
-[![.NET](https://github.com/sksalter503/capstone_project/actions/workflows/dotnet.yml/badge.svg)](https://github.com/sksalter503/capstone_project/actions/workflows/dotnet.yml)
 
 Voting app with:
 
